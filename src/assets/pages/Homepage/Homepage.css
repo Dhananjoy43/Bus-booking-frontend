@@ -1,0 +1,95 @@
+.home {
+  width: 90%;
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.container {
+  position: relative;
+  top: 100px;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 90px;
+}
+.container h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: block;
+  margin: auto;
+}
+.container h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  display: block;
+  margin: auto;
+}
+.searchBox {
+  display: flex;
+  margin-top: 50px;
+}
+.box {
+  width: 300px;
+  height: 60px;
+  background-color: #fff;
+  /* margin: 10px; */
+  border-right: 1px solid #333;
+}
+.box input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 18px;
+}
+.box svg {
+  color: #808080;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.box:nth-child(3) {
+  border: none;
+}
+.box:nth-child(4) {
+  border: none;
+  outline: none;
+  width: 200px;
+}
+.box button {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+  background: #376ae7;
+  border: none;
+  outline: none;
+}
+.box button:hover {
+  background: #376ae7;
+  /* background-image: linear-gradient(
+    45deg,
+    #376ae7 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  ); */
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+
+  cursor: pointer;
+}
