@@ -1,5 +1,11 @@
-import "react-calendar/dist/Calendar.css";
+import "./About.css";
+import Navbar from "../../components/Navbar/Navbar";
+const About = () => {
+  return (
+    <section>
+      <Navbar />
+    </section>
+  );
+};
 
-export default function About() {
-  return <div className="align-center">about</div>;
-}
+export default About;

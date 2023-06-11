@@ -63,6 +63,7 @@
   border: none;
   outline: none;
   padding: 10px;
+  /* cursor: pointer; */
 }
 .box:nth-child(3) {
   border: none;
@@ -72,7 +73,7 @@
   outline: none;
   width: 200px;
 }
-.box button {
+.btn {
   height: 100%;
   width: 100%;
   font-size: 18px;
@@ -81,7 +82,7 @@
   border: none;
   outline: none;
 }
-.box button:hover {
+.btn:hover {
   background: #376ae7;
   /* background-image: linear-gradient(
     45deg,
@@ -92,4 +93,11 @@
   background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
 
   cursor: pointer;
+}
+
+.calendar {
+  position: absolute;
+  float: right;
+  right: 27%;
+  top: 100%;
 }

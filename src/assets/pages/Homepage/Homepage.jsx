@@ -1,8 +1,9 @@
 import "./Homepage.css";
-import Navbar from "../../components/Navbar/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCity, faCalendarDays } from "@fortawesome/free-solid-svg-icons";
+import Navbar from "../../components/Navbar/Navbar";
 import Calendar_component from "../../components/Calendar/Calendar";
+
 export default function Homepage() {
   function handleSearch() {
     // alert("search button clicked");
@@ -26,22 +27,19 @@ export default function Homepage() {
               <FontAwesomeIcon icon={faCity} />
             </div>
             <div className="box align-center">
-              <input
-                className="searchInput"
-                type="date"
-                placeholder="Select date"
-              />
-              {/* <FontAwesomeIcon icon={faCalendarDays} /> */}
+              <div>
+                <Calendar_component />
+              </div>
+              <FontAwesomeIcon icon={faCalendarDays} />
             </div>
             <div className="box align-center">
-              <button type="submit" onClick={handleSearch}>
+              <button className="btn" type="submit" onClick={handleSearch}>
                 Search Buses
               </button>
             </div>
           </div>
         </div>
       </section>
-      <Calendar_component />
     </>
   );
 }
