@@ -1,40 +1,43 @@
 .navbar {
   width: 100%;
-  line-height: 60px;
+  line-height: 6rem;
   background: #f2f2f2;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
-  box-shadow: -2px 4px 14px -6px rgba(162, 152, 152, 0.58);
-  -webkit-box-shadow: -2px 4px 14px -6px rgba(162, 152, 152, 0.58);
-  -moz-box-shadow: -2px 4px 14px -6px rgba(162, 152, 152, 0.58);
+  box-shadow: -0.2rem 0.4rem 1.4rem -0.6rem rgba(162, 152, 152, 0.58);
+  -webkit-box-shadow: -0.2rem 0.4rem 1.4rem -0.6rem rgba(162, 152, 152, 0.58);
+  -moz-box-shadow: -0.2rem 0.4rem 1.4rem -0.6rem rgba(162, 152, 152, 0.58);
+  z-index: 5;
 }
 .navbar .left {
   flex: 1;
-  margin-left: 70px;
+  margin-left: 7rem;
   display: flex;
   align-items: end;
 }
 .navbar .left img {
-  height: 80px;
+  height: 8rem;
+  /* width: 20rem; */
+  background-size: cover;
 }
 .navbar .left span {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 200;
   color: #262626;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 .navbar .left span::first-letter {
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 600;
   color: #000000;
 }
 
 .navbar .right {
   flex: 1;
-  margin-right: 70px;
+  margin-right: 7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,9 +47,9 @@
   list-style: none;
 }
 .navbar .right ul li {
-  font-size: 20px;
-  padding: 10px;
-  gap: 15px;
+  font-size: 2rem;
+  padding: 1rem;
+  gap: 1.5rem;
 }
 .navbar .right ul li a {
   color: #002244;
@@ -55,5 +58,5 @@
 }
 
 .icon {
-  margin-left: 8px;
+  margin-left: 0.8rem;
 }

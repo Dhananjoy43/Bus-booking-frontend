@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Homepage from "./assets/pages/Homepage/Homepage";
+import SearchBus from "./assets/pages/SearchBus/SearchBus";
 import About from "./assets/pages/About/About";
 import Offers from "./assets/pages/Offers/Offers";
 import Support from "./assets/pages/Support/Support";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/searchbus" element={<SearchBus />} />
       </Routes>
     </BrowserRouter>
   );

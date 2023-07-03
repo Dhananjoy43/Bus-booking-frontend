@@ -11,7 +11,6 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="left">
         <img src="images/logo.png" alt="logo" />
-        <span>Ticket.com</span>
       </div>
       <div className="right">
         <ul>
